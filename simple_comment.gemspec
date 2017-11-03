@@ -2,7 +2,7 @@ version = File.read(File.expand_path('../VERSION', __FILE__)).strip
 
 Gem::Specification.new do |s|
   s.name        = 'simple_comment'
-  s.version     = 'v1.0.1'
+  s.version     = version
   s.summary     = 'A comment gem for ActiveRecord.'
   s.description = 'A flexible attachable comment library for ActiveRecord.'
   s.authors     = ['Kaid Wong']
